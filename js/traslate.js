@@ -129,7 +129,7 @@ const translations = {
         education_software_engineering_title: "Ingeniería de Software",
         education_software_dev_technologist_title: "Tecnólogo en Desarrollo de Software",
         skills_title: "Habilidades",
-        skills_programming_title: "Lenguajes de Ohgrhjmación y Herramientas",
+        skills_programming_title: "Lenguajes de Programación y Herramientas",
         skills_workflow_title: "Flujo de Trabajo",
         skills_workflow_1: "Migración e Integración de Aplicaciones",
         skills_workflow_2: "Conexiones de Sistemas de Pago",
