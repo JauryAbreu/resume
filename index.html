@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Resume - Jaury Abreu</title>
+    <title data-translate="title">Resume - Jaury Abreu</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Inline CSS for language buttons -->
+
 </head>
 <body id="page-top">
 <!-- Navigation-->
@@ -26,12 +27,13 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" data-translate="nav_about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience" data-translate="nav_experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education" data-translate="nav_education">Education</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills" data-translate="nav_skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests" data-translate="nav_interests">Interests</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards" data-translate="nav_awards">Awards</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#" data-translate="language_label">Language</a></li>
         </ul>
     </div>
 </nav>
@@ -48,7 +50,7 @@
                 Urb. Maximo Gomez · Santo Domingo, DO 11205 · (829) 248-4858 ·
                 <a href="mailto:jauryabreu@gmail.com">jauryabreu@gmail.com</a>
             </div>
-            <p class="lead mb-5">With +8 years in software development, I use agile methods to improve teamwork, development, and project tracking. Always open to learning, I adapt to new technologies to boost performance. With an analytical mindset and a focus on improvement, I deliver practical and effective solutions that optimize processes and add value.</p>
+            <p class="lead mb-5" data-translate="about_description">With +8 years in software development, I use agile methods to improve teamwork, development, and project tracking. Always open to learning, I adapt to new technologies to boost performance. With an analytical mindset and a focus on improvement, I deliver practical and effective solutions that optimize processes and add value.</p>
             <div class="social-icons">
                 <a class="social-icon" href="https://drive.google.com/file/d/1UwQ8_qW7QBOeNLatqITnv-Vs60l9p29W" target="_blank"><i class="fab fa-google-drive"></i></a>
                 <a class="social-icon" href="https://www.linkedin.com/in/jauryabreu" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -61,141 +63,131 @@
     <!-- Experience-->
     <section class="resume-section" id="experience">
         <div class="resume-section-content">
-            <h2 class="mb-5">Experience</h2>
-
+            <h2 class="mb-5" data-translate="experience_title">Experience</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Sr. Software Developer</h3>
+                    <h3 class="mb-0" data-translate="experience_sr_dev_title">Sr. Software Developer</h3>
                     <div class="subheading mb-3">Business Computer POS (Freelancer)</div>
                     <ul>
-                        <li>Designed and developed 5+ modular POS systems using .NET Core and SQL Server.</li>
-                        <li>Built 20+ RESTful APIs integrated with Stripe and other payment gateways, reducing transaction time by 35%.</li>
-                        <li>Automated deployments via Azure DevOps CI/CD pipelines, speeding up delivery by 40%.</li>
-                        <li>Applied xUnit testing, DDD, and Clean Architecture, increasing code coverage to 80%.</li>
-                        <li>Used Telerik/DevExpress and SQL Server for high-volume transaction systems (5,000+ daily).</li>
+                        <li data-translate="experience_sr_dev_1">Designed and developed 5+ modular POS systems using .NET Core and SQL Server.</li>
+                        <li data-translate="experience_sr_dev_2">Built 20+ RESTful APIs integrated with Stripe and other payment gateways, reducing transaction time by 35%.</li>
+                        <li data-translate="experience_sr_dev_3">Automated deployments via Azure DevOps CI/CD pipelines, speeding up delivery by 40%.</li>
+                        <li data-translate="experience_sr_dev_4">Applied xUnit testing, DDD, and Clean Architecture, increasing code coverage to 80%.</li>
+                        <li data-translate="experience_sr_dev_5">Used Telerik/DevExpress and SQL Server for high-volume transaction systems (5,000+ daily).</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
                     <p>C# (.NET Core), SQL Server, NoSQL, REST APIs, Azure DevOps, Git, xUnit, Microservices, Telerik/DevExpress, CI/CD, Azure</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Feb 2022 - Present</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Software Engineer</h3>
+                    <h3 class="mb-0" data-translate="experience_software_engineer_justo_title">Software Engineer</h3>
                     <div class="subheading mb-3">Justo (Contract)</div>
                     <ul>
-                        <li>Migrated 8 legacy services to Spring Boot microservices using DDD and modular design.</li>
-                        <li>Integrated APIs with Kafka, AWS SNS/SQS, and Webhooks, supporting over 90K monthly transactions.</li>
-                        <li>Deployed 3+ AWS Lambda functions, reducing infrastructure costs by 25%.</li>
-                        <li>Achieved 99.9% system availability with proper monitoring and failover strategies.</li>
-                        <li>Documented all critical flows and architecture decisions across multi-team initiatives.</li>
+                        <li data-translate="experience_software_engineer_justo_1">Migrated 8 legacy services to Spring Boot microservices using DDD and modular design.</li>
+                        <li data-translate="experience_software_engineer_justo_2">Integrated APIs with Kafka, AWS SNS/SQS, and Webhooks, supporting over 90K monthly transactions.</li>
+                        <li data-translate="experience_software_engineer_justo_3">Deployed 3+ AWS Lambda functions, reducing infrastructure costs by 25%.</li>
+                        <li data-translate="experience_software_engineer_justo_4">Achieved 99.9% system availability with proper monitoring and failover strategies.</li>
+                        <li data-translate="experience_software_engineer_justo_5">Documented all critical flows and Faustian architecture decisions across multi-team initiatives.</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
                     <p>Java, Spring Boot, Python, Amazon DynamoDB, Node.js, TypeScript, JavaScript, REST APIs, TDD, DDD, CI/CD, Git, Docker, Microservices, Jenkins</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Mar 2024 - May 2025</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Software Engineer</h3>
+                    <h3 class="mb-0" data-translate="experience_software_engineer_tiendamia_title">Software Engineer</h3>
                     <div class="subheading mb-3">Tiendamia (Contract)</div>
                     <ul>
-                        <li>Built and maintained backend services in Node.js and PHP across a Magento-based e-commerce platform.</li>
-                        <li>Developed and integrated 15+ REST APIs for payments, order processing, and customer flows.</li>
-                        <li>Refactored features into microservices using TypeScript, improving deployment and scalability.</li>
-                        <li>Optimized MySQL queries, reducing response time by 40%.</li>
-                        <li>Managed Git/GitHub workflows in distributed environments hosted on AWS.</li>
+                        <li data-translate="experience_software_engineer_tiendamia_1">Built and maintained backend services in Node.js and PHP across a Magento-based e-commerce platform.</li>
+                        <li data-translate="experience_software_engineer_tiendamia_2">Developed and integrated 15+ REST APIs for payments, order processing, and customer flows.</li>
+                        <li data-translate="experience_software_engineer_tiendamia_3">Refactored features into microservices using TypeScript, improving deployment and scalability.</li>
+                        <li data-translate="experience_software_engineer_tiendamia_4">Optimized MySQL queries, reducing response time by 40%.</li>
+                        <li data-translate="experience_software_engineer_tiendamia_5">Managed Git/GitHub workflows in distributed environments hosted on AWS.</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
                     <p>Node.js, React, TypeScript, PHP, MySql, Magento, CI/CD, Git, Docker, Microservices, AWS</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Jul 2021 - Feb 2024</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Team Leader &amp; Software Developer</h3>
+                    <h3 class="mb-0" data-translate="experience_team_leader_title">Team Leader & Software Developer</h3>
                     <div class="subheading mb-3">Agilisa Technologies</div>
                     <ul>
-                        <li>Led a 5-person development team and delivered 15+ B2B software projects on time.</li>
-                        <li>Designed and implemented systems in .NET Framework and SQL Server, processing 20K+ operations daily.</li>
-                        <li>Improved system performance by 40% using message queues and in-memory caching.</li>
-                        <li>Increased test coverage to 85% using NUnit and integrated Dockerized services.</li>
-                        <li>Oversaw version control, code reviews, and sprint planning using Git and Jira.</li>
+                        <li data-translate="experience_team_leader_1">Led a 5-person development team and delivered 15+ B2B software projects on time.</li>
+                        <li data-translate="experience_team_leader_2">Designed and implemented systems in .NET Framework and SQL Server, processing 20K+ operations daily.</li>
+                        <li data-translate="experience_team_leader_3">Improved system performance by 40% using message queues and in-memory caching.</li>
+                        <li data-translate="experience_team_leader_4">Increased test coverage to 85% using NUnit and integrated Dockerized services.</li>
+                        <li data-translate="experience_team_leader_5">Oversaw version control, code reviews, and sprint planning using Git and Jira.</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
-                    <p>C# (.Net Framework &amp; ASP.NET MVC), SQL Server, React, Docker, NUnit, Hangfire, Docker</p>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
+                    <p>C# (.Net Framework & ASP.NET MVC), SQL Server, React, Docker, NUnit, Hangfire, Docker</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Jun 2017 - Jul 2021</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Junior Software Developer</h3>
+                    <h3 class="mb-0" data-translate="experience_junior_dev_dextra_title">Junior Software Developer</h3>
                     <div class="subheading mb-3">Dextra</div>
                     <ul>
-                        <li>Customized 5+ Dynamics NAV ERP modules used by 5 business units</li>
-                        <li>Created over 20 dynamic reports using Report Builder and Power BI</li>
-                        <li>Integrated 5 SOAP APIs for financial data synchronization and invoicing</li>
-                        <li>Improved SQL performance by 30% via query optimization</li>
-                        <li>Contributed to version upgrades affecting 300+ active users</li>
+                        <li data-translate="experience_junior_dev_dextra_1">Customized 5+ Dynamics NAV ERP modules used by 5 business units</li>
+                        <li data-translate="experience_junior_dev_dextra_2">Created over 20 dynamic reports using Report Builder and Power BI</li>
+                        <li data-translate="experience_junior_dev_dextra_3">Integrated 5 SOAP APIs for financial data synchronization and invoicing</li>
+                        <li data-translate="experience_junior_dev_dextra_4">Improved SQL performance by 30% via query optimization</li>
+                        <li data-translate="experience_junior_dev_dextra_5">Contributed to version upgrades affecting 300+ active users</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
                     <p>C/AL, SQL Server, Report Builder, Microsoft Excel, SOAP Web Services, Microsoft Power BI</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Jan 2016 - May 2017</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Junior Software Developer</h3>
+                    <h3 class="mb-0" data-translate="experience_junior_dev_apap_title">Junior Software Developer</h3>
                     <div class="subheading mb-3">Asociación Popular de Ahorros y Préstamos (Internship)</div>
                     <ul>
-                        <li>Automated internal financial processes, reducing manual effort by 20%</li>
-                        <li>Generated 10+ financial and operational reports with Reporting Services and Excel</li>
-                        <li>Improved SQL query execution time, reducing error rates by 40%</li>
-                        <li>Handled 45+ user requests and system adaptations in 9 months</li>
-                        <li>Supported IT team initiatives affecting 250+ employees</li>
+                        <li data-translate="experience_junior_dev_apap_1">Automated internal financial processes, reducing manual effort by 20%</li>
+                        <li data-translate="experience_junior_dev_apap_2">Generated 10+ financial and operational reports with Reporting Services and Excel</li>
+                        <li data-translate="experience_junior_dev_apap_3">Improved SQL query execution time, reducing error rates by 40%</li>
+                        <li data-translate="experience_junior_dev_apap_4">Handled 45+ user requests and system adaptations in 9 months</li>
+                        <li data-translate="experience_junior_dev_apap_5">Supported IT team initiatives affecting 250+ employees</li>
                     </ul>
-                    <h5 class="text-primary">Technologies:</h5>
+                    <h5 class="text-primary" data-translate="technologies">Technologies:</h5>
                     <p>SQL Server, Report Builder (Reporting Services), Microsoft Excel</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Feb 2015 - Dec 2015</span></div>
             </div>
-
-
         </div>
     </section>
     <hr class="m-0" />
     <!-- Education-->
     <section class="resume-section" id="education">
         <div class="resume-section-content">
-            <h2 class="mb-5">Education</h2>
+            <h2 class="mb-5" data-translate="education_title">Education</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Universidad Domínico Americano</h3>
-                    <div class="subheading mb-3">Master's in Data Science and Big Data</div>
-                    <div>Waiting for quorum</div>
+                    <div class="subheading mb-3" data-translate="education_data_science_title">Master's in Data Science and Big Data</div>
+                    <div data-translate="education_data_science_status">Waiting for quorum</div>
                     <p>GPA: N/A</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">May 2025 - Current</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Universidad Domínico Americano</h3>
-                    <div class="subheading mb-3">Software Engineering</div>
+                    <div class="subheading mb-3" data-translate="education_software_engineering_title">Software Engineering</div>
                     <p>GPA: 3.62</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Sep 2018 - Aug 2024</span></div>
             </div>
-
             <div class="d-flex flex-column flex-md-row justify-content-between">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Instituto Tecnológico de Las Américas</h3>
-                    <div class="subheading mb-3">Software Development Technologist</div>
+                    <div class="subheading mb-3" data-translate="education_software_dev_technologist_title">Software Development Technologist</div>
                     <p>GPA: 3.71</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">Sep 2012 - Dec 2014</span></div>
@@ -206,8 +198,8 @@
     <!-- Skills-->
     <section class="resume-section" id="skills">
         <div class="resume-section-content">
-            <h2 class="mb-5">Skills</h2>
-            <div class="subheading mb-3">Programming Languages & Tools</div>
+            <h2 class="mb-5" data-translate="skills_title">Skills</h2>
+            <div class="subheading mb-3" data-translate="skills_programming_title">Programming Languages & Tools</div>
             <ul class="list-inline dev-icons">
                 <li class="list-inline-item"><i class="fab fa-windows"></i></li>
                 <li class="list-inline-item"><i class="fab fa-azure"></i></li>
@@ -226,53 +218,47 @@
                 <li class="list-inline-item"><i class="fab fa-github"></i></li>
                 <li class="list-inline-item"><i class="fab fa-npm"></i></li>
             </ul>
-            <div class="subheading mb-3">Workflow</div>
+            <div class="subheading mb-3" data-translate="skills_workflow_title">Workflow</div>
             <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Migrating & Integrating Applications
+                    <span data-translate="skills_workflow_1">Migrating & Integrating Applications</span>
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Payment System Connections
+                    <span data-translate="skills_workflow_2">Payment System Connections</span>
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Designing System Architecture
+                    <span data-translate="skills_workflow_3">Designing System Architecture</span>
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Developing for Differents Platforms
+                    <span data-translate="skills_workflow_4">Developing for Different Platforms</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Improving Performance & Speed
+                    <span data-translate="skills_workflow_5">Improving Performance & Speed</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Code Review & Quality Checks
+                    <span data-translate="skills_workflow_6">Code Review & Quality Checks</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Working in Agile Teams
+                    <span data-translate="skills_workflow_7">Working in Agile Teams</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Writing Documentation & Supporting Users
+                    <span data-translate="skills_workflow_8">Writing Documentation & Supporting Users</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Deploying & Monitoring Systems
+                    <span data-translate="skills_workflow_9">Deploying & Monitoring Systems</span>
                 </li>
-
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Collaborating with Stakeholders
+                    <span data-translate="skills_workflow_10">Collaborating with Stakeholders</span>
                 </li>
             </ul>
         </div>
@@ -281,49 +267,41 @@
     <!-- Interests-->
     <section class="resume-section" id="interests">
         <div class="resume-section-content">
-            <h2 class="mb-5">Interests</h2>
-            <p>In my free time, I like to stay active by going to the gym regularly. I also play paintball at least once a month because it gives me energy and excitement. I really enjoy sports, especially basketball and baseball.</p>
-            <p>I also love traveling and discovering new places. Right now, I’m visiting different parts of the country, and in the future, I hope to travel to other countries to learn about different cultures.</p>
-            <p>One of my short-term plans is to visit Denver, Colorado, with my wife. We want to go skiing in Aspen in January 2026 and enjoy the beautiful mountains.</p>
+            <h2 class="mb-5" data-translate="interests_title">Interests</h2>
+            <p data-translate="interests_1">In my free time, I like to stay active by going to the gym regularly. I also play paintball at least once a month because it gives me energy and excitement. I really enjoy sports, especially basketball and baseball.</p>
+            <p data-translate="interests_2">I also love traveling and discovering new places. Right now, I’m visiting different parts of the country, and in the future, I hope to travel to other countries to learn about different cultures.</p>
+            <p data-translate="interests_3">One of my short-term plans is to visit Denver, Colorado, with my wife. We want to go skiing in Aspen in January 2026 and enjoy the beautiful mountains.</p>
         </div>
     </section>
     <hr class="m-0" />
     <!-- Awards-->
     <section class="resume-section" id="awards">
         <div class="resume-section-content">
-            <h2 class="mb-5">Awards & Certifications</h2>
+            <h2 class="mb-5" data-translate="awards_title">Awards & Certifications</h2>
             <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-award"></i></span>
-                    Querying Microsoft SQL Server® 2014
+                    <span data-translate="award_1">Querying Microsoft SQL Server® 2014</span>
                     <sup>Course 20461D</sup>
                 </li>
-            </ul>
-            <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-award"></i></span>
-                    Administering Microsoft SQL Server® 2014 Databases
+                    <span data-translate="award_2">Administering Microsoft SQL Server® 2014 Databases</span>
                     <sup>Course 20462D</sup>
                 </li>
-            </ul>
-            <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-award"></i></span>
-                    Developing Microsoft SQL Server® 2014 Databases
-                    <sup>Course 20464D </sup>
+                    <span data-translate="award_3">Developing Microsoft SQL Server® 2014 Databases</span>
+                    <sup>Course 20464D</sup>
                 </li>
-            </ul>
-            <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-award"></i></span>
-                    Analyzing Data with Power BI (Desktop & Web)
+                    <span data-translate="award_4">Analyzing Data with Power BI (Desktop & Web)</span>
                     <sup>Course 20778-C</sup>
                 </li>
-            </ul>
-            <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"><i class="fas fa-award"></i></span>
-                    Designing Business Intelligence Solutions with Microsoft SQL Server® 2014
+                    <span data-translate="award_5">Designing Business Intelligence Solutions with Microsoft SQL Server® 2014</span>
                     <sup>Course 20467-D</sup>
                 </li>
             </ul>
@@ -334,5 +312,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
 <script src="js/scripts.js"></script>
+<!-- Language switcher JS -->
+<script src="js/traslate.js"></script>
 </body>
 </html>

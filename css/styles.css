@@ -10970,3 +10970,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+a[data-translate="language_label"] {
+    cursor: pointer;
+}
